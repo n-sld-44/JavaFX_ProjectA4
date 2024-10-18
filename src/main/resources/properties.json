@@ -1,0 +1,8 @@
+{
+    "name": "Women Shop",
+    "capital": 1000,
+
+      "brands": ["None","Adidas","Nike","Puma","Reebok","Under Armour"],
+      "types": ["Clothes","Shoes","Accessories"]
+
+}

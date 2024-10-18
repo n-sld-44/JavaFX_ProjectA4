@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.womenshopfx.shop.WomenShopController">
+   <children>
+        <Label layoutX="66.0" layoutY="33.0" text="List of items" />
+      <ListView fx:id="viewItems" layoutX="55.0" layoutY="132.0" prefHeight="258.0" prefWidth="484.0" />
+      <ComboBox fx:id="selectorBrand" layoutX="55.0" layoutY="85.0" prefWidth="150.0" promptText="Brand" />
+      <ComboBox fx:id="selectorType" layoutX="213.0" layoutY="85.0" prefWidth="150.0" promptText="Type" />
+      <Text fx:id="capitalLabel" layoutX="525.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capital :" wrappingWidth="150.0" />
+      <Text fx:id="incomesLabel" layoutX="525.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today Incomes : " wrappingWidth="150.0" />
+      <Text fx:id="expensesLabel" layoutX="525.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today Expenses :" wrappingWidth="150.0" />
+      <ComboBox fx:id="sortBy" layoutX="382.0" layoutY="85.0" prefWidth="150.0" promptText="sortBy" />
+   </children>
+</AnchorPane>
