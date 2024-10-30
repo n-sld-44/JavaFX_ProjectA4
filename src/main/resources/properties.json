@@ -1,8 +1,1 @@
-{
-    "name": "Women Shop",
-    "capital": 1000,
-
-      "brands": ["None","Adidas","Nike","Puma","Reebok","Under Armour"],
-      "types": ["Clothes","Shoes","Accessories"]
-
-}
+{"name":"Women Shop","capital":933.4427999999998,"totalIncomes":203.3928,"totalExpenses":241.92999999999998,"brands":["","Adidas","Arena","Kappa","Levis","Marque","Nike","Puma","Reebok","Speedo","Under Armour"],"types":["","Clothes","Shoes","Accessories"]}

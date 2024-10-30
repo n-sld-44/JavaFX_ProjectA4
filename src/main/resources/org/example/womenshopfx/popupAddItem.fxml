@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="800" prefWidth="550" spacing="10" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="550.0">
+         <children>
+            <Button fx:id="closeButton" layoutX="443.0" layoutY="335.0" mnemonicParsing="false" text="Cancel" />
+            <Button fx:id="addButton" layoutX="361.0" layoutY="335.0" mnemonicParsing="false" text="Add" />
+            <ComboBox fx:id="comboBoxType" layoutX="62.0" layoutY="83.0" prefWidth="150.0" promptText="Type" />
+            <ComboBox fx:id="comboBoxBrand" layoutX="62.0" layoutY="126.0" prefWidth="150.0" promptText="Brand" />
+            <TextField fx:id="purchasePriceField" layoutX="63.0" layoutY="281.0" promptText="Purchase Price" />
+            <TextArea fx:id="descriptionField" layoutX="62.0" layoutY="161.0" prefHeight="102.0" prefWidth="150.0" promptText="Description" />
+            <TextField fx:id="nameField" layoutX="63.0" layoutY="36.0" promptText="Name" />
+            <TextField fx:id="sellPriceField" layoutX="63.0" layoutY="323.0" promptText="Sell Price" />
+            <!-- Type field bit difficult has a new class need to be implemented  <TextField fx:id="addTypeField" layoutX="261.0" layoutY="84.0" prefHeight="26.0" prefWidth="150.0" promptText="Add New Type" /> -->
+            <TextField fx:id="addBrandField" layoutX="261.0" layoutY="127.0" promptText="Add New Brand" />
+
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
